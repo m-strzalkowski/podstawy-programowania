@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1607023625 source:/home/mateusz/Dokumenty/2020_12_03/3XII/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdarg.h>
+	"intlista.h"
+
+1607023742 /home/mateusz/Dokumenty/2020_12_03/3XII/intlista.h
+
+1607023423 source:/home/mateusz/Dokumenty/2020_12_03/3XII/intlista.c
+	<stdio.h>
+	<stdlib.h>
+	"intlista.h"
+
+1607023625 source:/home/mateusz/Dokumenty/podstawy-programowania/2020_12_03/3XII/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdarg.h>
+	"intlista.h"
+
+1607023742 /home/mateusz/Dokumenty/podstawy-programowania/2020_12_03/3XII/intlista.h
+
+1607023864 source:/home/mateusz/Dokumenty/podstawy-programowania/2020_12_03/3XII/intlista.c
+	<stdio.h>
+	<stdlib.h>
+	"intlista.h"
+
