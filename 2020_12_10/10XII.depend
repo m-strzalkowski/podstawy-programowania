@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1607617725 source:/home/mateusz/Dokumenty/10XII/main.c
+	<stdio.h>
+	<stdlib.h>
+	"intlista.h"
+
+1607617605 source:/home/mateusz/Dokumenty/10XII/lista.c
+	<stdio.h>
+	<stdlib.h>
+	"intlista.h"
+
+1607618059 /home/mateusz/Dokumenty/10XII/intlista.h
+
+1607617305 source:/home/mateusz/Dokumenty/10XII/drzewo.c
+	<stdio.h>
+	<stdlib.h>
+	"drzewo.h"
+
+1607618307 /home/mateusz/Dokumenty/10XII/drzewo.h
+
+1607618690 source:/home/mateusz/Dokumenty/10XII/intlista.c
+	<stdio.h>
+	<stdlib.h>
+	"intlista.h"
+
+1607618870 source:/home/mateusz/Dokumenty/10XII/strlista.c
+	<stdio.h>
+	<stdlib.h>
+	"strlista.h"
+
+1607618815 /home/mateusz/Dokumenty/10XII/strlista.h
+
