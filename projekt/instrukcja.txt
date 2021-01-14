@@ -1,0 +1,27 @@
+AUTOMAT PRZEPROWADZAJĄCY REZOLUCJĘ ZDAŃ RACHUNKU ZEROWEGO RZĘDU
+Mateusz Strzałkowski I 2020
+
+*Wyjście w sesji interaktywnej: q[ENTER]
+
+*Reprezentacja logicznej negacji jest domyślnie ustawiona na znak - (minus)
+
+*Format wejściowy
+Program czyta postać klauzulową rachunku zdań
+np,: {p,q}, {-p,q} {-a,b,d,c,e}
+niepoprawnie: {p-,q} {dłuższy niż znak, b} {{jakiekolwiek zagnieżdżenie nawiasów wąsatych}}
+
+*Wewnętrzne polecenia programu
+	
+	@ - wypisuje całą bazę wiedzy
+	?{klauzula} - rozpoczyna poszukiwanie dowodu na podana klauzulę, np:
+		?{a,b} 
+		?{} - poszukiwanie pustej klauzuli (czyli poszukiwanie sprzeczności w bazie wiedzy)
+
+*Parametry opcjonalne:
+	-i [nazwa pliku wejściowego]
+	-o [nazwa pliku wyjściowego]
+	
+	-qai dowody (i baza wiedzy) będą wypisywane w kolejności dodawania do bazy wiedzy (QueryAsIs)
+	-qrp występujące w dowodzie przesłanki będą wypisywane na początku (QueryRelevantPremises)
+	-qap wszystkie wprowadzone przesłanki będą wypisywane na początku (QueryAllPremises)
+

@@ -1,0 +1,9 @@
+{a,b,c}
+{-a,-d,f}
+{d}
+{-b,-c}
+{-a}
+@
+?{b,-b}
+$fmt="%n-te zdanie: %N : %P wywnioskowane ze zdan o numerach %l oraz %r"
+?{b,-b}

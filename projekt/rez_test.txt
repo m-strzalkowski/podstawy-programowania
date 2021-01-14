@@ -1,0 +1,34 @@
+1: {a,b,c} <-PRZESLANKA
+2: {-a,-d,f} <-PRZESLANKA
+3: {b,c,-d,f} <- {-a,-d,f} , {a,b,c} (2 i 1)
+4: {d} <-PRZESLANKA
+5: {-a,f} <- {d} , {-a,-d,f} (4 i 2)
+6: {b,c,f} <- {-a,f} , {a,b,c} (5 i 1)
+7: {-b,-c} <-PRZESLANKA
+8: {a,-c,c} <- {-b,-c} , {a,b,c} (7 i 1)
+9: {-c,c,-d,f} <- {a,-c,c} , {-a,-d,f} (8 i 2)
+10: {a,b,c,-d,f} <- {-c,c,-d,f} , {a,b,c} (9 i 1)
+11: {a,b,c,f} <- {a,b,c,-d,f} , {d} (10 i 4)
+12: {a,-c,c,f} <- {a,b,c,f} , {-b,-c} (11 i 7)
+13: {-c,c,f} <- {a,-c,c,f} , {-a,f} (12 i 5)
+14: {-b,-c,f} <- {-c,c,f} , {-b,-c} (13 i 7)
+15: {a,-b,b,f} <- {-b,-c,f} , {a,b,c} (14 i 1)
+16: {-b,b,-d,f} <- {a,-b,b,f} , {-a,-d,f} (15 i 2)
+17: {-b,b,f} <- {-b,b,-d,f} , {d} (16 i 4)
+18: {-b,-c,-d,f} <- {-b,b,-d,f} , {-b,-c} (16 i 7)
+19: {a,-c,c,-d,f} <- {-b,-c,-d,f} , {a,b,c} (18 i 1)
+20: {a,-b,-c,-d,f} <- {a,-c,c,-d,f} , {-b,-c} (19 i 7)
+21: {a,-b,b,-d,f} <- {a,-b,-c,-d,f} , {a,b,c} (20 i 1)
+22: {a,-b,-c,f} <- {a,-b,-c,-d,f} , {d} (20 i 4)
+23: {a,-b,-c} <- {a,-c,c} , {-b,-c} (8 i 7)
+24: {a,-b,b} <- {a,-b,-c} , {a,b,c} (23 i 1)
+25: {-a} <-PRZESLANKA
+26: {b,c} <- {-a} , {a,b,c} (25 i 1)
+27: {-c,c} <- {b,c} , {-b,-c} (26 i 7)
+28: {-b,b} <- {b,c} , {-b,-c} (26 i 7)
+DOWOD NA {-b,b}:
+1: {a,b,c} <-PRZESLANKA
+2: {-a} <-PRZESLANKA
+3: {-b,-c} <-PRZESLANKA
+4: {b,c} <- {-a} , {a,b,c} (2 i 1)
+0: {-b,b} <- {b,c} , {-b,-c} (4 i 3)

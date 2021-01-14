@@ -1,0 +1,122 @@
+# depslib dependency file v1.0
+1610625786 source:c:\users\mastr\documents\ms\programy\rezolutor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"glob.h"
+	"baza.h"
+	"wyjscie.h"
+	"szukanie.h"
+	"siec.h"
+
+1610447538 source:c:\users\mastr\documents\ms\programy\rezolutor\wyjscie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"wyjscie.h"
+
+1610624604 c:\users\mastr\documents\ms\programy\rezolutor\wyjscie.h
+	"baza.h"
+
+1610623809 source:c:\users\mastr\documents\ms\programy\rezolutor\baza.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"glob.h"
+	"wyjscie.h"
+	"baza.h"
+
+1610447720 source:c:\users\mastr\documents\ms\programy\rezolutor\glob.c
+	<stdio.h>
+	<stdlib.h>
+	"glob.h"
+
+1610458819 c:\users\mastr\documents\ms\programy\rezolutor\baza.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+
+1610450473 c:\users\mastr\documents\ms\programy\rezolutor\glob.h
+
+1610447720 source:c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\glob.c
+	<stdio.h>
+	<stdlib.h>
+	"glob.h"
+
+1610450473 c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\glob.h
+
+1610625786 source:c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"glob.h"
+	"baza.h"
+	"wyjscie.h"
+	"szukanie.h"
+	"siec.h"
+
+1610458819 c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\baza.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+
+1610624604 c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\wyjscie.h
+	"baza.h"
+
+1610623809 source:c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\baza.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"glob.h"
+	"wyjscie.h"
+	"baza.h"
+
+1610624968 source:c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\wyjscie.c
+	<stdlib.h>
+	<string.h>
+	"wyjscie.h"
+
+1610624551 source:c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\szukanie.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"glob.h"
+	"wyjscie.h"
+	"baza.h"
+	"szukanie.h"
+
+1610555210 c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\szukanie.h
+	"glob.h"
+	"wyjscie.h"
+	"baza.h"
+
+1610613275 source:c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\siec.c
+
+1610614145 c:\users\mastr\documents\ms\programy\rezolutor_zepsute_kodowanie\siec.h
+
+1610555210 c:\users\mastr\documents\ms\programy\rezolutor\szukanie.h
+	"glob.h"
+	"wyjscie.h"
+	"baza.h"
+
+1610614145 c:\users\mastr\documents\ms\programy\rezolutor\siec.h
+
+1610613275 source:c:\users\mastr\documents\ms\programy\rezolutor\siec.c
+
+1610625872 source:c:\users\mastr\documents\ms\programy\rezolutor\szukanie.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"glob.h"
+	"wyjscie.h"
+	"baza.h"
+	"szukanie.h"
+
